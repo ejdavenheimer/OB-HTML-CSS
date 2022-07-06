@@ -22,9 +22,9 @@
                 <input type="number" name="edadUsuario" id="edadUsuario" min="0">
             </div>
             <div>
-                <label for="comentarios">Comentarios</label>
+                <label for="frase-favorita">Indica su frase favorita</label>
                 <br>
-                <textarea name="comentarios" id="comentarios"></textarea>
+                <textarea name="frase-favorita" id="frase-favorita"></textarea>
             </div>
 
             <button type="submit">Enviar</button>
