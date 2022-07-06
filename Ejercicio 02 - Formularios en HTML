@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+    <head>
+        <!-- Meta / configuraciones generales -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+         <!-- Título de la página (lo que se ve en pestaña) -->
+        <title>Ejercicio 02 - Formularios en HTML</title>
+    </head>
+
+    <body>
+        <form action="/" method="get">
+            <div>
+                <label for="nombreUsuario">Nombre</label>
+                <input name="nombreUsuario" id="nombreUsuario">
+            </div>
+            <div>
+                <label for="edadUsuario">Edad</label>
+                <input type="number" name="edadUsuario" id="edadUsuario" min="0">
+            </div>
+            <div>
+                <label for="comentarios">Comentarios</label>
+                <br>
+                <textarea name="comentarios" id="comentarios"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+        </form>
+    </body>
+</html>
+
+
