@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="Es">
+
+    <head>
+        <!-- Meta / configuraciones generales -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+         <!-- Título de la página (lo que se ve en pestaña) -->
+        <title>Ejercicio 02/2 - Tablas en HTML</title>
+    </head>
+
+    <body>
+        <table>
+            <caption>Tabla</caption>
+            <tbody style="text-align: center;">
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Año de publicaciónn</th>
+                    <th>Enlace a Amazon</th>
+                </tr>
+                
+                <tr>
+                    <td>Harry Potter I</td>
+                    <td>J. K. Rowling</td>
+                    <td>1997</td>
+                    <td><a href="https://www.amazon.es/Harry-Potter-Piedra-Filosofal-Rowling/dp/8478884459">Comprar libro</a></td>
+                </tr>
+                <tr>
+                    <td>Harry Potter II</td>
+                    <td>J. K. Rowling</td>
+                    <td>1998</td>
+                    <td><a href="https://www.amazon.com/-/es/J-K-Rowling-ebook/dp/B005CRQ2DA">Comprar libro</a></td>
+                </tr>
+                <tr>
+                    <td>Harry Potter III</td>
+                    <td>J. K. Rowling</td>
+                    <td>1999</td>
+                    <td><a href="https://www.amazon.es/Harry-Potter-Prisionero-Azkaban-Rowling/dp/8478885196">Comprar libro</a></td>
+                </tr>
+                <tr>
+                    <td>Harry Potter IV</td>
+                    <td>J. K. Rowling</td>
+                    <td>2000</td>
+                    <td><a href="https://www.amazon.com/-/es/J-K-Rowling/dp/8418173114">Comprar libro</a></td>
+                </tr>
+            </tbody>
+        </table>      
+    </body>
+</html>
+
+
